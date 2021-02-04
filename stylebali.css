@@ -1,0 +1,9 @@
+.content h1 {
+    color :rgb(218, 21, 21);
+}
+.content p{
+    color: cyan
+}
+.containercard{
+    padding-top: 20px;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
+ 
+  
+  .myVideo {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .spasicard{
+      height: calc(100vh + 60px);
+
+  }
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+    
+  a{
+      text-decoration: none;
+      color: crimson;
+  }
+  #myBtn:hover {
+    background: crimson;
+    color: black;
+  }
+  .card:hover{
+    padding: 10px;
+  }
